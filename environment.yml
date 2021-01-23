@@ -9,7 +9,7 @@ dependencies:
   - colorlog=4.0.2
   - coverage=4.5.3
   - flaky=3.5.3
-  - libgcc
+  # - libgcc
   - numpy=1.16.3
   - openpyxl=2.6.1
   - pandas=0.24.2
@@ -36,7 +36,8 @@ dependencies:
     - colorlover==0.3.0
     - opencv-python==4.1.0.25
     - pyopengl==3.1.0
-    - ray==0.7.0
+    # - ray==0.7.0
+    - ray
     - redis==2.10.6
     - tensorboard==2.1.1
     - xvfbwrapper==0.2.9
@@ -45,5 +46,6 @@ dependencies:
     - gym[box2d]
     - gym[classic_control]
     - pybullet==2.8.4
-    - roboschool==1.0.46
+    # - roboschool==1.0.46
+    - roboschool
     - atari-py
